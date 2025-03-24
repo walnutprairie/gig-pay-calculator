@@ -1,3 +1,4 @@
+// Triggering fresh deploy
 // app/layout.js
 import '../styles/globals.css';
 
