@@ -1,11 +1,6 @@
-// Triggering fresh deploy
-// app/layout.js
-import '../styles/globals.css';
+"use client";
 
-export const metadata = {
-  title: 'Gig Pay Calculator',
-  description: 'Evaluate your delivery offers easily',
-};
+import "../styles/globals.css";
 
 export default function RootLayout({ children }) {
   return (
@@ -14,5 +9,3 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
-
-
